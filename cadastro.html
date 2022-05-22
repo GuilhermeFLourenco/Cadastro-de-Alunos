@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+	<title>Cadastro de Alunos</title>
+	  <script src="js/script.js"></script>
+     <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body onload ="redesenha()">
+   <header>
+      <center><h1>Cadastro de Alunos</h1></center>
+   </header>
+
+
+       <div class="divCadastro">
+          <h3 class="center">Cadastrar Aluno</h3>
+          <br>
+          <div class="lineInput">
+            <label>Nome</label>
+            <input id="idNome" placeholder="Nome do Aluno(a)">
+          </div>
+
+          <div class="lineInput">
+            <label>Telefone</label>
+            <input id="idTelefone" placeholder="Telefone">
+          </div>
+
+          <div class="lineInput">
+            <label>Data de Nascimento</label>
+            <input id="idDataNascimento" placeholder="Data de Nascimento">
+          </div>
+
+          <div class="lineInput">
+            <label>Nota Final do Curso</label>
+            <input id="idNotaFinalCurso" placeholder="Nota Final do Aluno(a)">
+          </div>
+          
+          <button onclick="cadastrarAluno()">Cadastrar Aluno</button>
+       </div>
+
+
+      <div class="divEdicao">
+          <h3 class="center">Editar Cadastro</h3>
+          <br>
+          <div class="lineInput">
+            <label>Nome</label>
+            <span id="editNome"></span>
+          </div>
+
+          <div class="lineInput">
+            <label>Telefone</label>
+            <span id="editTelefone"></span>
+          </div>
+
+          <div class="lineInput">
+            <label>Data de Nascimento</label>
+            <span id="editDataNascimento"></span>
+          </div>
+
+          <div class="lineInput">
+            <label>Nota Final do Curso</label>
+            <span id="editNotaFinalCurso"></span>
+          </div>
+          
+          <button style="display: none" id="idBotaoEditarCadastro" onclick="editar()">Editar Cadastro</button>
+       </div>
+
+   <div id="divTabela">
+      <table id="idTabelaDados"border=1>
+      </table>
+   </div>
+</body>
+</html>

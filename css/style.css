@@ -1,0 +1,62 @@
+body{
+	font-family: 'Nunito Sans',sans-serif;
+	background-color: #fafbfc;
+}
+
+header {
+	background-color: green;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+.divCadastro{
+	margin-top: 15px;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 40%;
+	float: left;
+
+}
+
+.divEdicao{
+	margin-top: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+	width: 40%;
+	float: right;
+}
+
+.lineInput{
+	display: grid;
+	margin-bottom: 5px;
+}
+
+input {
+	padding: 5px;
+	border: 3px solid #ccc;
+	border-radius: 3px;
+}
+
+.lineInput{
+	display: grid;
+	margin-bottom: 10px;
+}
+
+table {
+	margin-top: 15 px;
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+table th {
+    background-color: #ccc;	
+}
+
+.center {
+	text-align: center;
+}          
+     
